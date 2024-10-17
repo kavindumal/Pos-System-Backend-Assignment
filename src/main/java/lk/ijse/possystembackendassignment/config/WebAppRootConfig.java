@@ -47,7 +47,7 @@ public class WebAppRootConfig {
 
         LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
         factory.setJpaVendorAdapter(vendorAdapter);
-        factory.setPackagesToScan("lk.ijse.possystembackendspring.entity");
+        factory.setPackagesToScan("lk.ijse.possystembackendassignment.entity");
         factory.setDataSource(dataSource());
 
         Properties jpaProperties = new Properties();
