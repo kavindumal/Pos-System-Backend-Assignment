@@ -1,4 +1,4 @@
-package lk.ijse.possystembackendassignment.service;
+package lk.ijse.possystembackendassignment.service.impl;
 
 import jakarta.transaction.Transactional;
 import lk.ijse.possystembackendassignment.customObj.CustomerErrorResponse;
@@ -8,6 +8,7 @@ import lk.ijse.possystembackendassignment.dto.CustomerDto;
 import lk.ijse.possystembackendassignment.entity.CustomerEntity;
 import lk.ijse.possystembackendassignment.exception.CustomerNotFoundException;
 import lk.ijse.possystembackendassignment.exception.DataPersistFailedException;
+import lk.ijse.possystembackendassignment.service.CustomerService;
 import lk.ijse.possystembackendassignment.util.AppUtil;
 import lk.ijse.possystembackendassignment.util.Mapping;
 import lombok.RequiredArgsConstructor;

@@ -1,4 +1,4 @@
-package lk.ijse.possystembackendassignment.service;
+package lk.ijse.possystembackendassignment.service.impl;
 
 import jakarta.transaction.Transactional;
 import lk.ijse.possystembackendassignment.customObj.ItemErrorResponse;
@@ -8,6 +8,7 @@ import lk.ijse.possystembackendassignment.dto.ItemDto;
 import lk.ijse.possystembackendassignment.entity.ItemEntity;
 import lk.ijse.possystembackendassignment.exception.DataPersistFailedException;
 import lk.ijse.possystembackendassignment.exception.ItemNotFoundException;
+import lk.ijse.possystembackendassignment.service.ItemService;
 import lk.ijse.possystembackendassignment.util.AppUtil;
 import lk.ijse.possystembackendassignment.util.Mapping;
 import lombok.RequiredArgsConstructor;

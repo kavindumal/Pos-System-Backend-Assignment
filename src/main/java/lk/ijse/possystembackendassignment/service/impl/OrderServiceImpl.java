@@ -1,4 +1,4 @@
-package lk.ijse.possystembackendassignment.service;
+package lk.ijse.possystembackendassignment.service.impl;
 
 import jakarta.transaction.Transactional;
 import lk.ijse.possystembackendassignment.dao.CustomerDAO;
@@ -9,6 +9,7 @@ import lk.ijse.possystembackendassignment.dto.OrderDto;
 import lk.ijse.possystembackendassignment.entity.CustomerEntity;
 import lk.ijse.possystembackendassignment.entity.ItemEntity;
 import lk.ijse.possystembackendassignment.entity.OrderDetailsEntity;
+import lk.ijse.possystembackendassignment.service.OrderService;
 import lk.ijse.possystembackendassignment.util.AppUtil;
 import lk.ijse.possystembackendassignment.util.Mapping;
 import lombok.RequiredArgsConstructor;
