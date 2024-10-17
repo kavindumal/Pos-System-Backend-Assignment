@@ -1,16 +1,16 @@
 package lk.ijse.possystembackendassignment.service;
 
 import jakarta.transaction.Transactional;
-import lk.ijse.possystembackendspring.dao.CustomerDAO;
-import lk.ijse.possystembackendspring.dao.ItemDAO;
-import lk.ijse.possystembackendspring.dao.OrderDAO;
-import lk.ijse.possystembackendspring.dao.OrderDetailsDAO;
-import lk.ijse.possystembackendspring.dto.OrderDto;
-import lk.ijse.possystembackendspring.entity.CustomerEntity;
-import lk.ijse.possystembackendspring.entity.ItemEntity;
-import lk.ijse.possystembackendspring.entity.OrderDetailsEntity;
-import lk.ijse.possystembackendspring.util.AppUtil;
-import lk.ijse.possystembackendspring.util.Mapping;
+import lk.ijse.possystembackendassignment.dao.CustomerDAO;
+import lk.ijse.possystembackendassignment.dao.ItemDAO;
+import lk.ijse.possystembackendassignment.dao.OrderDAO;
+import lk.ijse.possystembackendassignment.dao.OrderDetailsDAO;
+import lk.ijse.possystembackendassignment.dto.OrderDto;
+import lk.ijse.possystembackendassignment.entity.CustomerEntity;
+import lk.ijse.possystembackendassignment.entity.ItemEntity;
+import lk.ijse.possystembackendassignment.entity.OrderDetailsEntity;
+import lk.ijse.possystembackendassignment.util.AppUtil;
+import lk.ijse.possystembackendassignment.util.Mapping;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

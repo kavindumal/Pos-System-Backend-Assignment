@@ -20,8 +20,8 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-@ComponentScan(basePackages = "lk.ijse.possystembackendspring")
-@EnableJpaRepositories(basePackages = "lk.ijse.possystembackendspring")
+@ComponentScan(basePackages = "lk.ijse.possystembackendassignment")
+@EnableJpaRepositories(basePackages = "lk.ijse.possystembackendassignment")
 @EnableTransactionManagement
 public class WebAppRootConfig {
     @Bean

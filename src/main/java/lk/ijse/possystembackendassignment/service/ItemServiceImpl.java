@@ -1,15 +1,15 @@
 package lk.ijse.possystembackendassignment.service;
 
 import jakarta.transaction.Transactional;
-import lk.ijse.possystembackendspring.customObj.ItemErrorResponse;
-import lk.ijse.possystembackendspring.customObj.ItemResponse;
-import lk.ijse.possystembackendspring.dao.ItemDAO;
-import lk.ijse.possystembackendspring.dto.ItemDto;
-import lk.ijse.possystembackendspring.entity.ItemEntity;
-import lk.ijse.possystembackendspring.exception.DataPersistFailedException;
-import lk.ijse.possystembackendspring.exception.ItemNotFoundException;
-import lk.ijse.possystembackendspring.util.AppUtil;
-import lk.ijse.possystembackendspring.util.Mapping;
+import lk.ijse.possystembackendassignment.customObj.ItemErrorResponse;
+import lk.ijse.possystembackendassignment.customObj.ItemResponse;
+import lk.ijse.possystembackendassignment.dao.ItemDAO;
+import lk.ijse.possystembackendassignment.dto.ItemDto;
+import lk.ijse.possystembackendassignment.entity.ItemEntity;
+import lk.ijse.possystembackendassignment.exception.DataPersistFailedException;
+import lk.ijse.possystembackendassignment.exception.ItemNotFoundException;
+import lk.ijse.possystembackendassignment.util.AppUtil;
+import lk.ijse.possystembackendassignment.util.Mapping;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

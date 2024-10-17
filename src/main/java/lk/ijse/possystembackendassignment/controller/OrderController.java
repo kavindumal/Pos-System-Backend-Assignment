@@ -1,8 +1,8 @@
 package lk.ijse.possystembackendassignment.controller;
 
-import lk.ijse.possystembackendspring.dto.OrderDto;
-import lk.ijse.possystembackendspring.exception.DataPersistFailedException;
-import lk.ijse.possystembackendspring.service.OrderService;
+import lk.ijse.possystembackendassignment.dto.OrderDto;
+import lk.ijse.possystembackendassignment.exception.DataPersistFailedException;
+import lk.ijse.possystembackendassignment.service.OrderService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

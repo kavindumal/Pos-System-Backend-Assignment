@@ -1,13 +1,13 @@
 package lk.ijse.possystembackendassignment.util;
 
-import lk.ijse.possystembackendspring.dto.CustomerDto;
-import lk.ijse.possystembackendspring.dto.ItemDto;
-import lk.ijse.possystembackendspring.dto.OrderDetailDto;
-import lk.ijse.possystembackendspring.dto.OrderDto;
-import lk.ijse.possystembackendspring.entity.CustomerEntity;
-import lk.ijse.possystembackendspring.entity.ItemEntity;
-import lk.ijse.possystembackendspring.entity.OrderDetailsEntity;
-import lk.ijse.possystembackendspring.entity.OrderEntity;
+import lk.ijse.possystembackendassignment.dto.CustomerDto;
+import lk.ijse.possystembackendassignment.dto.ItemDto;
+import lk.ijse.possystembackendassignment.dto.OrderDetailDto;
+import lk.ijse.possystembackendassignment.dto.OrderDto;
+import lk.ijse.possystembackendassignment.entity.CustomerEntity;
+import lk.ijse.possystembackendassignment.entity.ItemEntity;
+import lk.ijse.possystembackendassignment.entity.OrderDetailsEntity;
+import lk.ijse.possystembackendassignment.entity.OrderEntity;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;

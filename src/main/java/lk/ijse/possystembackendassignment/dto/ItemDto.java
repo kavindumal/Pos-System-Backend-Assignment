@@ -1,6 +1,6 @@
 package lk.ijse.possystembackendassignment.dto;
 
-import lk.ijse.possystembackendspring.customObj.ItemResponse;
+import lk.ijse.possystembackendassignment.customObj.ItemResponse;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

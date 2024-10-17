@@ -1,10 +1,10 @@
 package lk.ijse.possystembackendassignment.controller;
-import lk.ijse.possystembackendspring.customObj.ItemResponse;
-import lk.ijse.possystembackendspring.dto.ItemDto;
-import lk.ijse.possystembackendspring.exception.CustomerNotFoundException;
-import lk.ijse.possystembackendspring.exception.DataPersistFailedException;
-import lk.ijse.possystembackendspring.exception.ItemNotFoundException;
-import lk.ijse.possystembackendspring.service.ItemService;
+import lk.ijse.possystembackendassignment.customObj.ItemResponse;
+import lk.ijse.possystembackendassignment.dto.ItemDto;
+import lk.ijse.possystembackendassignment.exception.CustomerNotFoundException;
+import lk.ijse.possystembackendassignment.exception.DataPersistFailedException;
+import lk.ijse.possystembackendassignment.exception.ItemNotFoundException;
+import lk.ijse.possystembackendassignment.service.ItemService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

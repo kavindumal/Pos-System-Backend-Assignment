@@ -1,7 +1,7 @@
 package lk.ijse.possystembackendassignment.service;
 
-import lk.ijse.possystembackendspring.customObj.ItemResponse;
-import lk.ijse.possystembackendspring.dto.ItemDto;
+import lk.ijse.possystembackendassignment.customObj.ItemResponse;
+import lk.ijse.possystembackendassignment.dto.ItemDto;
 
 import java.util.List;
 

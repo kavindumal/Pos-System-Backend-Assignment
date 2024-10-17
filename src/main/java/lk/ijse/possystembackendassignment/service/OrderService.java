@@ -1,6 +1,6 @@
 package lk.ijse.possystembackendassignment.service;
 
-import lk.ijse.possystembackendspring.dto.OrderDto;
+import lk.ijse.possystembackendassignment.dto.OrderDto;
 
 import java.util.List;
 

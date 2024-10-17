@@ -1,6 +1,6 @@
 package lk.ijse.possystembackendassignment.dao;
 
-import lk.ijse.possystembackendspring.entity.CustomerEntity;
+import lk.ijse.possystembackendassignment.entity.CustomerEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

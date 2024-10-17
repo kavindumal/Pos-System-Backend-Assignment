@@ -8,9 +8,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
-@ComponentScan(basePackages = "lk.ijse.possystembackendspring")
+@ComponentScan(basePackages = "lk.ijse.possystembackendassignment")
 @EnableWebMvc
-@EnableJpaRepositories(basePackages = "lk.ijse.possystembackendspring")
+@EnableJpaRepositories(basePackages = "lk.ijse.possystembackendassignment")
 @EnableTransactionManagement
 @MultipartConfig(
         fileSizeThreshold = 1024 * 1024 * 2, //2MB

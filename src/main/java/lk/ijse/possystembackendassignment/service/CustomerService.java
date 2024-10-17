@@ -1,8 +1,8 @@
 package lk.ijse.possystembackendassignment.service;
 
 
-import lk.ijse.possystembackendspring.customObj.CustomerResponse;
-import lk.ijse.possystembackendspring.dto.CustomerDto;
+import lk.ijse.possystembackendassignment.customObj.CustomerResponse;
+import lk.ijse.possystembackendassignment.dto.CustomerDto;
 
 import java.util.List;
 

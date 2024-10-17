@@ -2,8 +2,8 @@ package lk.ijse.possystembackendassignment;
 
 import jakarta.servlet.MultipartConfigElement;
 import jakarta.servlet.ServletRegistration;
-import lk.ijse.possystembackendspring.config.WebAppConfig;
-import lk.ijse.possystembackendspring.config.WebAppRootConfig;
+import lk.ijse.possystembackendassignment.config.WebAppConfig;
+import lk.ijse.possystembackendassignment.config.WebAppRootConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
